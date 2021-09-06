@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.margin{
+    margin-top: 10px;
+}
+
+body{
+    background-image: url(../img/saopaulotest2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(185, 185, 185, 0.884);
+    background-blend-mode: overlay;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+header{
+    display: inline-block; 
+    padding: 15px;
+
+}
+
+
+
+header h1{
+    padding: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(6, 25, 54, 0.61);
+    width: 415px;
+}
+
+
+p{
+    
+    width: 50%;
+    font-family:monospace;
+    font-size: 22px;
+    margin: auto;
+    color: rgb(0, 0, 0);    
+}
+
+iframe.margin{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+section.curiosidades h2{
+    color: #2c0427;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+section.curiosidades ul{
+    text-align: center;
+    line-height: 45px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    list-style-position:inside;
+}
+
+
+footer{
+    background: rgba(56, 69, 105, 0.425);
+    padding-top: 15px;   
+    
+}
+
+footer a {
+    margin-left: 70px;
+}
+
+
+footer img {
+    width: 50px;
+    transition: transform 0.1s;
+}
+
+footer img:hover{
+    transform: scale(1.20);
+}
