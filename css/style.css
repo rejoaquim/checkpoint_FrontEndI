@@ -28,7 +28,15 @@ header{
 
 }
 
-
+header nav {
+    text-align: center;
+    background-color: rgb(19, 165, 14);
+    height: 30px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-size: 15px;
+}
 
 header h1{
     padding: 10px;
@@ -155,3 +163,4 @@ footer img:hover{
         height: 750px;
     }
 }
+
